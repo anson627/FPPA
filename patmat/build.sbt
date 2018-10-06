@@ -10,6 +10,9 @@ libraryDependencies += "junit" % "junit" % "4.10" % Test
 // for funsets
 libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4"
 
+// for scalatest
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
+
 // include the common dir
 commonSourcePackages += "common"
 
